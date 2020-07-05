@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1a1a1d;
+}
+header {
+  background-color: #c3073f;
+  color: #1a1a1d;
+  font-family: "Asap", sans-serif;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.scoreBoard {
+  font-family: "Asap", sans-serif;
+  border: 4px solid white;
+  margin: 20px auto;
+  text-align: center;
+  width: 12rem;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  position: relative;
+}
+.scoreBoard > div {
+  display: inline-block;
+  font-family: "Asap", sans-serif;
+}
+.userLabel {
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 1.2rem;
+  width: 4rem;
+  top: 32px;
+  left: -32px;
+  background-color: #c3073f;
+  color: #1a1a1d;
+  border-radius: 50px;
+}
+.computerLabel {
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 1.2rem;
+  width: 4rem;
+  top: 32px;
+  right: -32px;
+  background-color: #c3073f;
+  color: #1a1a1d;
+  border-radius: 50px;
+}
+h2 {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 4 0px;
+  font-weight: 900;
+}
+.objects {
+  text-align: center;
+  font-family: "Asap", sans-serif;
+}
+.objects > p {
+  padding-top: 35px;
+  color: #1a1a1d;
+  height: 7rem;
+  width: 14rem;
+  font-size: 30px;
+  border: 4px solid white;
+  border-radius: 50%;
+  background-color: #c3073f;
+}
+.up {
+  margin: 20px auto;
+}
+.down {
+  display: inline-block;
+  margin: 0 auto;
+  margin: 0 20px;
+}
+p {
+  font-family: "Asap", sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+.objects > p:hover {
+  cursor: pointer;
+  background-color: #5d001e;
+  color: white;
+  transition: 0.5s ease;
+}
+.green-glow {
+  border: 4px solid green !important;
+  box-shadow: 0 0 2px 2px darkgreen;
+}
+.red-glow {
+  border: 4px solid red !important;
+  box-shadow: 0 0 2px 2px darkred;
+}
+.gray-glow {
+  border: 4px solid grey !important;
+  box-shadow: 0 0 2px 2px darkgray;
+}
